@@ -1,0 +1,253 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Md Zamiur Rahman Ratul} \\ \vspace{1pt}
+    \small +8801707089793 $|$ \href{mailto:ratulcse16@gmail.com}{\underline{ratulcse16@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/zamiurratul}{\underline{linkedin.com/in/zamiurratul}} $|$
+    \href{https://github.com/zamiurratul}{\underline{github.com/zamiurratul}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ahsanullah University of Science \& Technology}{Dhaka}
+      {Bachelor of Science in Computer Science \& Engineering (3.41/4.00)}{Spring 2012 -- Fall 2015}
+    \resumeSubheading
+      {Notre Dame College}{Dhaka}
+      {Higher Secondary Certificate - Science (5.00/5.00)}{Jul. 2009 -- Jun. 2011}
+  \resumeSubHeadingListEnd
+
+%-----------ABOUT-----------
+\section{About}
+{Experienced Principal Software Engineer and Team Lead with 8.5+ years of leadership. Proficient in Java, Spring Boot, Oracle, React, Bash, Redis, and Apache Kafka. Successfully delivered scalable solutions with cross-functional teams of 20+ members, consistently meeting deadlines and optimizing performance}
+%
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Principal Software Engineer \& Unit Head}{Mar 2023 -- Present}{RedDot Digital Limited (A Robi Axiata Company)}{Gulshan 1, Dhaka}
+      \resumeItemListStart
+        \resumeItem{Lead a high-performing team of over 10 engineers within the Biometric \& Regulatory Platform Development Unit}
+        \resumeItem{In charge of development \& maintenance of 3 major critical (Crown Jewel) enterprise systems}
+        \resumeItem{Maintain highly concurrent system capable of processing 500K+ requests per day, with peak-hour loads exceeding 100 requests per second with active user base of over 100K users}
+        \resumeItem{Design \& deliver software solutions that consistently meets business demand \& on-time delivery, and ensure an impressive system up-time of 99.95\%}
+      \resumeItemListEnd
+
+  \resumeSubheading
+      {Lead Software Engineer}{May 2020 -- Feb 2023}{RedDot Digital Limited (A Robi Axiata Company)}{Gulshan 1, Dhaka}
+      \resumeItemListStart
+        \resumeItem{Analyzed complex business needs, translating them into technical specifications and actionable development plans, resulting in up to 30\% reduced delivery time}
+        \resumeItem{Led solution design and development, overseeing code reviews and ensuring precise delivery}
+        \resumeItem{Coached team members, investing over 200+ coaching hours}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Application Developer}{Apr 2019 -- Apr 2020}
+      {Sheba Technologies Limited}{Mohakhali C/A, Dhaka}
+      \resumeItemListStart
+        \resumeItem{Implemented a scalable distributed microservices architecture using Spring Boot and Apache Kafka; enabled seamless integration between backend systems}
+        \resumeItem{Collaborated with the team lead, reducing development time by around 30\% through cleaner \& robust architecture}
+        \resumeItem{Integrated \& tested 200+ APIs using cURL, Postman, SOAP-UI, JUnit, Mockito}
+        \resumeItem{Planned an robust transaction reconciliation system, cutting operational effort by 40\%}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer}{Nov 2015 -- Apr 2019}
+      {Bit Mascot (Pvt.) Ltd}{New DOHS, Mohakhali, Dhaka}
+      \resumeItemListStart
+        \resumeItem{Full stack development of WebCommander CMS which has more than 100+ plugin}
+        \resumeItem{Developed 10+ plugins for the core system (i.e. Sendle, TaxJar, Square, MailChimp, eBay, Amazon MWS etc)}
+        \resumeItem{Fixed 50+ bugs of Front End Editor (jQuery add-on for CMS text editing) within a very tight deadline of 01 month}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Subscriber Verification System}}{Jan 2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{Microservice backed highly concurrent platform for onboarding new customer \& providing after-sales service developed using Java, SpringBoot, Oracle, React, ASP.NET, Apache Kafka, Redis,  NGINX which is integrated with major telco systems like HLR, CBS, Distribution Management System, SMSC, Recharge, MNP, EC, CBVMP, Digital CRM etc}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Corporate SIM Registration Automation}}{Dec. 2021 -- Present}
+          \resumeItemListStart
+            \resumeItem{Workflow based generic approval system created using Java, SpringBoot, React, Kafka, Redis}
+        \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Online SIM Sell Portal}}{Mar 2022 -- Present}
+          \resumeItemListStart
+            \resumeItem{Web application for new customer acquisition, SIM sell \& booking built using Java, SpringBoot, React, Redis}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{RedCash - Mobile Financial System Core}}{Aug 2022 -- Dec 2022}
+          \resumeItemListStart
+            \resumeItem{Designed based on double entry accounting principal. Also has transaction encryption mechanism}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Web Commander}}{Feb 2018 -- Apr 2019}
+          \resumeItemListStart
+            \resumeItem{Dynamic Content Management System which has 100+ plugin \& developed using Groovy, Grails, JQuery}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Bash, SQL (Oracle), JavaScript, HTML/CSS, C\#} \\
+     \textbf{Frameworks}{: SpringBoot, React, ASP.NET, Struts} \\
+     \textbf{Developer Tools}{: IntelliJ, Git, Docker, Visual Studio, SQL Developer, DBeaver, Postman, Soap UI} \\
+     \textbf{Others}{: Apache Kafka, Redis, Hibernate, Linux, JConsole}
+    }} \\
+    
+ \end{itemize}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+    \resumeItemListStart
+        \resumeItem{Received 'Exceeds Expectation' rating in Performance Assessment for service year 2023 at RedDot Digital Ltd}
+        \resumeItem{Received 'Outstanding' rating in Performance Assessment for both service year 2020 \& 2021 at RedDot Digital Ltd}
+        \resumeItem{Recognized as 'Best Developer' in Q4, 2020, \& 'Star Developer' in Q2, 2021, at RedDot Digital Ltd}
+        \resumeItem{Received CEO's Special Recognition for outstanding contributions at Sheba Technologies Ltd}
+      \resumeItemListEnd
+%
+
+%-----------CERTIICATION & TRAINING-----------
+\section{Certification \& Training}
+    \resumeItemListStart
+        \resumeItem{Successfully completed the \href{https://bcert.me/bc/html/show-badge.html?b=iddgrcfg}{\underline{Certified ScrumMaster (CSM)}} certification, demonstrating proficiency in Agile methodologies and Scrum framework}
+        \resumeItem{Completed CMMI (Capability Maturity Model Integration) Basic Training, gaining a fundamental understanding of process improvement, quality management, and organizational performance enhancement}
+      \resumeItemListEnd
+%
+
+%-------------------------------------------
+\end{document}
